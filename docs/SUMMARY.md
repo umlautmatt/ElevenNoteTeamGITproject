@@ -17,4 +17,6 @@
 * [Part 3: Database Setup: ](3-DatabaseSetup/3.0-Data.md)
     * [3.0: Data](3-DatabaseSetup/3.0-Data.md)
         * [3.0a: GUID Info](3-DatabaseSetup/3.0a-GUIDInfo.md)
+        * [3.0b: Types](3-DatabaseSetup/3.0b-Types.md)
+    * [3.1: Database and Connection String](3-DatabaseSetup/3.1-DatabaseAndConnectionString.md)
 * [Eleven Fifty Style Guide](StyleGuide/StyleGuide.md)
