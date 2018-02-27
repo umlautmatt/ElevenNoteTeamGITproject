@@ -12,6 +12,7 @@
     * [2.1: Entity Framework, Refrences, Using Statements](2-IdentityModel/2.1-EntityRefrencesAndUsingStatements.md)
         * [2.1a: References](2-IdentityModel/2.1a-References.md)
     * [2.2: Identity Models Setup](2-IdentityModel/2.2-IdentityModelsSetup.md)
+        * [2.2a: IdentityModels.cs](2-IdentityModel/2.2a-IdentityModelsScreenshot.md)
 * [Part 3: Database Setup: ](3-DatabaseSetup/3.0-Data.md)
     * [3.0: Data](3-DatabaseSetup/3.0-Data.md)
         * [3.0a: GUID Info](3-DatabaseSetup/3.0a-GUIDInfo.md)
