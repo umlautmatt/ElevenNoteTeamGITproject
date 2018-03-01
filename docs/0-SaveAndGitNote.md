@@ -13,6 +13,5 @@
 - Look for this icon ![Save](/assets/font-awesome-save.png) in the notes as a reminder to save
 
 ###Git
-- It is up to you to manage Git for this project, but we recommend that you commit at this point
-- Branch off and work on a develop branch
+- It is up to you to manage Git for this project
 - Look for this icon ![Git](/assets/devicons_github_badge.png) in the notes as a reminder to commit

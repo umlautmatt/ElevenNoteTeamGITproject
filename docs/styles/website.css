@@ -6,4 +6,5 @@
 }
 .book {
     height: calc(100% - 17px) !important;
+    text-align: left;
 }
