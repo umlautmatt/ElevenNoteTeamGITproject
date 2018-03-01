@@ -21,4 +21,8 @@
         * [3.0c: GUID Info](3-DatabaseSetup/3.0a-GUIDInfo.md)
         * [3.0d: Types](3-DatabaseSetup/3.0b-Types.md)
     * [3.1: Database and Connection String](3-DatabaseSetup/3.1-DatabaseAndConnectionString.md)
+* [Part 4: NoteListItem](4-NoteListItem/4.0-NoteController.md)
+    * [4.0: Note Controller](4-NoteListItem/4.0-NoteController.md)
+    * [4.1: NoteListItem Model](4-NoteListItem/4.1-NoteListItemModel.md)
+    * [4.2: Index View](4-NoteListItem/4.2-IndexView.md)
 * [Eleven Fifty Style Guide](StyleGuide/StyleGuide.md)
