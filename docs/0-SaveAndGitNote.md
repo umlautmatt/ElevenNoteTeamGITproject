@@ -1,10 +1,11 @@
 #1.3: Notes About Files, Saving, and Git
 ---
 ####Track Active Item
-- You can set Visual Studio to highlight the current file in the Solution Explorer
+- You can set Visual Studio to highlight the current file in the **Solution Explorer**
+![Track Item Example](/assets/0.0-A.png)
 - Go to **Tools > Options > Projects and Solutions > General**
 - Check **Track Active Item in Solution Explorer**
-![Track Active Item](/assets/1.3-A.png)
+![Track Active Item](/assets/0.0-B.png)
 
 ###Saving
 - Remember to save often
