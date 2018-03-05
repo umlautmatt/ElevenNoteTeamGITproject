@@ -25,4 +25,8 @@
     * [4.0: Note Controller](4-NoteListItem/4.0-NoteController.md)
     * [4.1: NoteListItem Model](4-NoteListItem/4.1-NoteListItemModel.md)
     * [4.2: Index View](4-NoteListItem/4.2-IndexView.md)
+* [Part 5: NoteCreate](5-NoteCreate/5.0-CreateMethod.md)
+    * [5.0: NoteCreate](5-NoteCreate/5.0-CreateMethod.md)
+    * [5.1: NoteCreate Model](5-NoteCreate/5.1-NoteCreateModel.md)
+    * [5.2: Create View](5-NoteCreate/5.2-CreateView.md)
 * [Eleven Fifty Style Guide](StyleGuide/StyleGuide.md)
