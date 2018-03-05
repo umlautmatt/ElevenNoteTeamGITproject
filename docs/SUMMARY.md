@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [Notes about Files, Saving, and Git](0-SaveAndGitNote.md)
+* [0.0: Notes about Files, Saving, and Git](0-SaveandGitNotes/0.0-SaveAndGitNotes.md)
 * [Part 1: Setup: ](1-Setup/1.0-CreateProject.md)
     * [1.0: Create Project](1-Setup/1.0-CreateProject.md)
     * [1.1: Password Information](1-Setup/1.1-PasswordInformation.md)
