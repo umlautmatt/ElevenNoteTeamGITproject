@@ -32,5 +32,7 @@
     * [5.3: Change NoteCreate Model](5-NoteCreate/5.3-ChangeNoteCreate.md)
     * [5.4: Create (post) Method](5-NoteCreate/5.4-CreatePost.md)
 * [Part 6: NoteService](6-NoteService/6.0-NoteService.md)
-    * [Part 6: NoteService](6-NoteService/6.0-NoteService.md)
+    * [6.0: NoteService](6-NoteService/6.0-NoteService.md)
+    * [6.1: NoteController Changes](6-NoteService/6.1-NoteController.md)
+    * [6.2: QuickWatch & Data](6-NoteService/6.2-QuickWatch.md)
 * [Eleven Fifty Style Guide](StyleGuide/StyleGuide.md)
