@@ -29,4 +29,6 @@
     * [5.0: NoteCreate](5-NoteCreate/5.0-CreateMethod.md)
     * [5.1: NoteCreate Model](5-NoteCreate/5.1-NoteCreateModel.md)
     * [5.2: Create View](5-NoteCreate/5.2-CreateView.md)
+    * [5.3: Change NoteCreate Model](5-NoteCreate/5.3-ChangeNoteCreate.md)
+    * [5.4: Create (post) Method](5-NoteCreate/5.4-CreatePost.md)
 * [Eleven Fifty Style Guide](StyleGuide/StyleGuide.md)
