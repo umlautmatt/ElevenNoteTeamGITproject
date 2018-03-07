@@ -30,7 +30,7 @@
     * [5.1: NoteCreate Model](5-NoteCreate/5.1-NoteCreateModel.md)
     * [5.2: Create View](5-NoteCreate/5.2-CreateView.md)
     * [5.3: Change NoteCreate Model](5-NoteCreate/5.3-ChangeNoteCreate.md)
-    * [5.4: Create (post) Method](5-NoteCreate/5.4-CreatePost.md)
+    * [5.4: Create [Post] Method](5-NoteCreate/5.4-CreatePost.md)
 * [Part 6: NoteService](6-NoteService/6.0-NoteService.md)
     * [6.0: NoteService](6-NoteService/6.0-NoteService.md)
     * [6.1: NoteController Changes](6-NoteService/6.1-NoteController.md)
