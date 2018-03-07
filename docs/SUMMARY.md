@@ -38,4 +38,6 @@
 * [Part 7: Create Refactor](7-CreateRefactor/7.0-CreateRefactor.md)
     * [7.0: CreateRefactor](7-CreateRefactor/7.0-CreateRefactor.md)
     * [7.1: Validation Messages](7-CreateRefactor/7.1-ValidationMessages.md)
+* [Part 8: NoteDetail](8-NoteDetail/8.0-NoteDetail.md)
+    * [8.0: CreateRefactor](8-NoteDetail/8.0-NoteDetail.md)
 * [Eleven Fifty Style Guide](StyleGuide/StyleGuide.md)
