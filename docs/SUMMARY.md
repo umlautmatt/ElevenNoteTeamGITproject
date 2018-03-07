@@ -35,4 +35,7 @@
     * [6.0: NoteService](6-NoteService/6.0-NoteService.md)
     * [6.1: NoteController Changes](6-NoteService/6.1-NoteController.md)
     * [6.2: QuickWatch & Data](6-NoteService/6.2-QuickWatch.md)
+* [Part 7: Create Refactor](7-CreateRefactor/7.0-CreateRefactor.md)
+    * [7.0: CreateRefactor](7-CreateRefactor/7.0-CreateRefactor.md)
+    * [7.1: Validation Messages](7-CreateRefactor/7.1-ValidationMessages.md)
 * [Eleven Fifty Style Guide](StyleGuide/StyleGuide.md)
