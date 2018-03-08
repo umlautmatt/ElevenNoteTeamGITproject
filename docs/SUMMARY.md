@@ -9,7 +9,7 @@
         * [1.2a: Overview of the App's Structure](1-Setup/1.2a-AppStructureOverview.md)
 * [Part 2: Identity Model: ](2-IdentityModel/2.0-IdentityModel.md)
     * [2.0: Identity Model](2-IdentityModel/2.0-IdentityModel.md)
-    * [2.1: Entity Framework, Refrences, Using Statements](2-IdentityModel/2.1-EntityRefrencesAndUsingStatements.md)
+    * [2.1: Entity Framework, References, Using Statements](2-IdentityModel/2.1-EntityRefrencesAndUsingStatements.md)
         * [2.1a: References](2-IdentityModel/2.1a-References.md)
     * [2.2: Identity Models Setup](2-IdentityModel/2.2-IdentityModelsSetup.md)
         * [2.2a: IdentityModels.cs](2-IdentityModel/2.2a-IdentityModelsScreenshot.md)
