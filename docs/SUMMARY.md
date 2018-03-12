@@ -41,7 +41,7 @@
 * [Part 8: NoteDetail](8-NoteDetail/8.0-NoteDetail.md)
     * [8.0: NoteDetail Model](8-NoteDetail/8.0-NoteDetail.md)
     * [8.1: Detail View](8-NoteDetail/8.1-DetailView.md)
-* [Part 9: NoteEdit](9-NoteDetail/9.0-NoteDetail.md)
+* [Part 9: NoteEdit](9-NoteEdit/9.0-NoteEdit.md)
     * [9.0: NoteEdit Model](9-NoteEdit/9.0-NoteEdit.md)
     * [9.1: NoteEdit View](9-NoteEdit/9.1-NoteEditView.md)
 * [Eleven Fifty Style Guide](StyleGuide/StyleGuide.md)
