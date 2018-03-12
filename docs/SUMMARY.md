@@ -1,7 +1,9 @@
 # Summary
 
-* [Introduction](README.md)
-* [0.0: Notes about Files, Saving, and Git](0-SaveandGitNotes/0.0-SaveAndGitNotes.md)
+* [Introduction](0-Introduction/0.0-Introduction.md)
+    * [0.0: Introduction](0-Introduction/0.0-Introduction.md)
+    * [0.1: Notes about Files, Saving, and Git](0-Introduction/0.1-SaveAndGitNotes.md)
+    * [0.2: Tips](0-Introduction/0.2-Tips.md)
 * [Part 1: Setup: ](1-Setup/1.0-CreateProject.md)
     * [1.0: Create Project](1-Setup/1.0-CreateProject.md)
     * [1.1: Password Information](1-Setup/1.1-PasswordInformation.md)
@@ -48,4 +50,6 @@
     * [10.0: NoteDelete](10-NoteDelete/10.0-NoteDelete.md)
 * [Part 11: DateFormat](11-DateFormat/11.0-DateFormat.md)
     * [11.0: DateFormat](11-DateFormat/11.0-DateFormat.md)
+* [Part 12: Add Star Option](12-Starred/12.0-Starred.md)
+    * [12.0: Add Star Option](12-Starred/12.0-Starred.md)
 * [Eleven Fifty Style Guide](StyleGuide/StyleGuide.md)
