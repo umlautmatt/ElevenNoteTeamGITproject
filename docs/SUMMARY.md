@@ -44,4 +44,8 @@
 * [Part 9: NoteEdit](9-NoteEdit/9.0-NoteEdit.md)
     * [9.0: NoteEdit Model](9-NoteEdit/9.0-NoteEdit.md)
     * [9.1: NoteEdit View](9-NoteEdit/9.1-NoteEditView.md)
+* [Part 10: NoteDelete](10-NoteDelete/10.0-NoteDelete.md)
+    * [10.0: NoteDelete](10-NoteDelete/10.0-NoteDelete.md)
+* [Part 11: DateFormat](11-DateFormat/11.0-DateFormat.md)
+    * [11.0: DateFormat](11-DateFormat/11.0-DateFormat.md)
 * [Eleven Fifty Style Guide](StyleGuide/StyleGuide.md)
