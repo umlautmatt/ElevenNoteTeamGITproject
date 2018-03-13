@@ -52,4 +52,8 @@
     * [11.0: DateFormat](11-DateFormat/11.0-DateFormat.md)
 * [Part 12: Add Star Option](12-Starred/12.0-Starred.md)
     * [12.0: Add Star Option](12-Starred/12.0-Starred.md)
+* [Part 13: API Intro](13-APIIntro/13.0-APIIntro.md)
+    * [13.0: API Intro](13-APIIntro/13.0-APIIntro.md)
+    * [13.1: Test Login](13-APIIntro/13.1-TestLogin.md)
+    * [13.2: SSL](13-APIIntro/13.2-SSL.md)
 * [Eleven Fifty Style Guide](StyleGuide/StyleGuide.md)
