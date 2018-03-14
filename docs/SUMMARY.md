@@ -56,4 +56,7 @@
     * [13.0: API Intro](13-APIIntro/13.0-APIIntro.md)
     * [13.1: Test Login](13-APIIntro/13.1-TestLogin.md)
     * [13.2: SSL](13-APIIntro/13.2-SSL.md)
+* [Part 14: WebAPI](14-WebAPI/14.0-WebAPISetup.md)
+    * [14.0: WebAPI Setup](14-WebAPI/14.0-WebAPISetup.md)
+    * [14.1: Testing with Postman](14-WebAPI/14.1-PostmanTest.md)
 * [Eleven Fifty Style Guide](StyleGuide/StyleGuide.md)
