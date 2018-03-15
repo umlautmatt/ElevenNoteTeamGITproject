@@ -62,4 +62,6 @@
 * [Part 15: API Controller](15-ApiController/15.0-ApiController.md)
     * [15.0: API Controller](15-ApiController/15.0-ApiController.md)
     * [15.1: Test Getting Notes in Postman](15-ApiController/15.1-PostmanGetNotes.md)
+* [Part 16: Http Methods](16-HttpMethods/16.0-HttpMethods.md)
+    * [Part 16: Http Methods](16-HttpMethods/16.0-HttpMethods.md)
 * [Eleven Fifty Style Guide](StyleGuide/StyleGuide.md)
