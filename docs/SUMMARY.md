@@ -1,9 +1,8 @@
 # Summary
 
-* [Introduction](0-Introduction/0.0-Introduction.md)
-    * [0.0: Introduction](0-Introduction/0.0-Introduction.md)
-    * [0.1: Notes about Files, Saving, and Git](0-Introduction/0.1-SaveAndGitNotes.md)
-    * [0.2: Tips](0-Introduction/0.2-Tips.md)
+* [Notes and Tips](0-TipsEtc/0.0-SaveAndGitNotes.md)
+    * [0.0: Notes about Files, Saving, and Git](0-TipsEtc/0.0-SaveAndGitNotes.md)
+    * [0.1: Tips](0-TipsEtc/0.1-Tips.md)
 * [Part 1: Setup: ](1-Setup/1.0-CreateProject.md)
     * [1.0: Create Project](1-Setup/1.0-CreateProject.md)
     * [1.1: Password Information](1-Setup/1.1-PasswordInformation.md)
@@ -52,6 +51,7 @@
     * [11.0: DateFormat](11-DateFormat/11.0-DateFormat.md)
 * [Part 12: Add Star Option](12-Starred/12.0-Starred.md)
     * [12.0: Add Star Option](12-Starred/12.0-Starred.md)
+    * [12.1: API for Star](12-Starred/12.1-APIForStar.md)
 * [Part 13: API Intro](13-APIIntro/13.0-APIIntro.md)
     * [13.0: API Intro](13-APIIntro/13.0-APIIntro.md)
     * [13.1: Test Login](13-APIIntro/13.1-TestLogin.md)
