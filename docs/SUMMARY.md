@@ -3,6 +3,7 @@
 * [Notes and Tips](0-TipsEtc/0.0-SaveAndGitNotes.md)
     * [0.0: Notes about Files, Saving, and Git](0-TipsEtc/0.0-SaveAndGitNotes.md)
     * [0.1: Tips](0-TipsEtc/0.1-Tips.md)
+    * [0.2: Resources](0-TipsEtc/0.2-Resources.md)
 * [Part 1: Setup: ](1-Setup/1.0-CreateProject.md)
     * [1.0: Create Project](1-Setup/1.0-CreateProject.md)
     * [1.1: Password Information](1-Setup/1.1-PasswordInformation.md)
