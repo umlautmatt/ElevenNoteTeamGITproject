@@ -56,7 +56,7 @@
         * [12.0: Add Star Option](12-Starred/12.0-Starred.md)
         * [12.1: Star Setup](12-Starred/12.1-StarSetup.md)
         * [12.2: Star API](12-Starred/12.2-StarApi.md)
-* ElevenNote API (Parts 13-18)
+* ElevenNote API (Parts 13-19)
     * Part 13: API Intro
         * [13.0: API Intro](13-APIIntro/13.0-APIIntro.md)
         * [13.1: Test Login](13-APIIntro/13.1-TestLogin.md)
@@ -79,3 +79,5 @@
         * [18.0: Swagger Setup](18-Swagger/18.0-SwaggerSetup.md)
             * [18.0: Swagger Setup](18-Swagger/18.0a-SwaggerConfig.md)
         * [18.1: Test with Swagger](18-Swagger/18.1-TestWithSwagger.md)
+    * Part 19: PostMan Tips
+        * [19.0: PostMan Tips](19-ApiTips/19.0-PostManTips.md)
