@@ -77,7 +77,7 @@
         * [17.4: Test Delete](17-TestEndpoints/17.4-DeleteTest.md)
     * Part 18:  Swagger
         * [18.0: Swagger Setup](18-Swagger/18.0-SwaggerSetup.md)
-            * [18.0: Swagger Setup](18-Swagger/18.0a-SwaggerConfig.md)
+            * [18.0a: Swagger Config](18-Swagger/18.0a-SwaggerConfig.md)
         * [18.1: Test with Swagger](18-Swagger/18.1-TestWithSwagger.md)
     * Part 19: PostMan Tips
         * [19.0: PostMan Tips](19-ApiTips/19.0-PostManTips.md)
