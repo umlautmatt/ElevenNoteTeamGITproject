@@ -44,6 +44,7 @@
     * Part 8: NoteDetail
         * [8.0: NoteDetail Model](8-NoteDetail/8.0-NoteDetail.md)
         * [8.1: Detail View](8-NoteDetail/8.1-DetailView.md)
+        * [8.2: URL and Routes Discussion](8-NoteDetail/8.2-UrlandRoutes.md)
     * Part 9: NoteEdit
         * [9.0: NoteEdit Model](9-NoteEdit/9.0-NoteEdit.md)
         * [9.1: NoteEdit View](9-NoteEdit/9.1-NoteEditView.md)
@@ -77,7 +78,7 @@
         * [17.4: Test Delete](17-TestEndpoints/17.4-DeleteTest.md)
     * Part 18:  Swagger
         * [18.0: Swagger Setup](18-Swagger/18.0-SwaggerSetup.md)
-            * [18.0: Swagger Setup](18-Swagger/18.0a-SwaggerConfig.md)
+            * [18.0a: Swagger Config](18-Swagger/18.0a-SwaggerConfig.md)
         * [18.1: Test with Swagger](18-Swagger/18.1-TestWithSwagger.md)
     * Part 19: PostMan Tips
         * [19.0: PostMan Tips](19-ApiTips/19.0-PostManTips.md)
