@@ -5,19 +5,19 @@
     * [0.1: Tips](0-TipsEtc/0.1-Tips.md)
     * [0.2: Resources](0-TipsEtc/0.2-Resources.md)
 * ElevenNote (Parts 1-11)
-    * Part 1: Setup:
+    * Part 1: Setup
         * [1.0: Create Project](1-Setup/1.0-CreateProject.md)
         * [1.1: Password Information](1-Setup/1.1-PasswordInformation.md)
         * [1.2: Add Projects](1-Setup/1.2-AddProjects.md)
             * [1.2a: Overview of the App's Structure](1-Setup/1.2a-AppStructureOverview.md)
-    * Part 2: Identity Model:
+    * Part 2: Identity Model
         * [2.0: Identity Model](2-IdentityModel/2.0-IdentityModel.md)
         * [2.1: Entity Framework, References, Using Statements](2-IdentityModel/2.1-EntityRefrencesAndUsingStatements.md)
             * [2.1a: References](2-IdentityModel/2.1a-References.md)
         * [2.2: Identity Models Setup](2-IdentityModel/2.2-IdentityModelsSetup.md)
             * [2.2a: IdentityModels.cs](2-IdentityModel/2.2a-IdentityModelsScreenshot.md)
             * [2.2b: Explanation](2-IdentityModel/2.2b-Explanation.md)
-    * Part 3: Database Setup:
+    * Part 3: Database Setup
         * [3.0: Data](3-DatabaseSetup/3.0-Data.md)
             * [3.0a: Annotations](3-DatabaseSetup/3.0a-Annotations.md)
             * [3.0b: Migrations](3-DatabaseSetup/3.0b-Migrations.md)
