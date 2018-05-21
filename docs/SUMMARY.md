@@ -11,9 +11,8 @@
         * [1.5: ElevenNote.Tests](1-Setup/1.5-Tests.md)
     * Part 2: Identity Model
         * [2.0: Identity Model](2-IdentityModel/2.0-IdentityModel.md)
+        * [2.1: Entity Framework, References, Using Statements](2-IdentityModel/2.1-EntityRefrencesAndUsingStatements.md)
         * [2.1: Password Information](2-IdentityModel/1.9-PasswordInformation.md)
-        * [2.2: Entity Framework, References, Using Statements](2-IdentityModel/2.1-EntityRefrencesAndUsingStatements.md)
-            * [2.1a: References](2-IdentityModel/2.1a-References.md)
         * [2.2: Identity Models Setup](2-IdentityModel/2.2-IdentityModelsSetup.md)
             * [2.2a: IdentityModels.cs](2-IdentityModel/2.2a-IdentityModelsScreenshot.md)
             * [2.2b: Explanation](2-IdentityModel/2.2b-Explanation.md)
