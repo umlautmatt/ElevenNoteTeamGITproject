@@ -1,18 +1,18 @@
 # Summary
 
-* Notes and Tips
-    * [0.0: Notes about Files, Saving, and Git](0-TipsEtc/0.0-SaveAndGitNotes.md)
-    * [0.1: Tips](0-TipsEtc/0.1-Tips.md)
-    * [0.2: Resources](0-TipsEtc/0.2-Resources.md)
 * ElevenNote (Parts 1-11)
     * Part 1: Setup
-        * [1.0: Create Project](1-Setup/1.0-CreateProject.md)
-        * [1.1: Password Information](1-Setup/1.1-PasswordInformation.md)
-        * [1.2: Add Projects](1-Setup/1.2-AddProjects.md)
-            * [1.2a: Overview of the App's Structure](1-Setup/1.2a-AppStructureOverview.md)
+        * [0.0: Intro](1-Setup/0.0-Intro.md)
+        * [1.0: ElevenNote.WebMVC](1-Setup/1.0-CreateProject.md)
+        * [1.1: ElevenNote.Data](1-Setup/1.1-DataLayer.md)
+        * [1.2: ElevenNote.Models](1-Setup/1.2-Models.md)
+        * [1.3: ElevenNote.Contracts](1-Setup/1.3-Contracts.md)
+        * [1.4: ElevenNote.Service](1-Setup/1.4-Service.md)
+        * [1.5: ElevenNote.Tests](1-Setup/1.5-Tests.md)
     * Part 2: Identity Model
         * [2.0: Identity Model](2-IdentityModel/2.0-IdentityModel.md)
-        * [2.1: Entity Framework, References, Using Statements](2-IdentityModel/2.1-EntityRefrencesAndUsingStatements.md)
+        * [2.1: Password Information](2-IdentityModel/1.9-PasswordInformation.md)
+        * [2.2: Entity Framework, References, Using Statements](2-IdentityModel/2.1-EntityRefrencesAndUsingStatements.md)
             * [2.1a: References](2-IdentityModel/2.1a-References.md)
         * [2.2: Identity Models Setup](2-IdentityModel/2.2-IdentityModelsSetup.md)
             * [2.2a: IdentityModels.cs](2-IdentityModel/2.2a-IdentityModelsScreenshot.md)
@@ -57,6 +57,10 @@
         * [12.0: Add Star Option](12-Starred/12.0-Starred.md)
         * [12.1: Star Setup](12-Starred/12.1-StarSetup.md)
         * [12.2: Star API](12-Starred/12.2-StarApi.md)
+* Notes and Tips
+    * [0.0: Notes about Files, Saving, and Git](0-TipsEtc/0.0-SaveAndGitNotes.md)
+    * [0.1: Tips](0-TipsEtc/0.1-Tips.md)
+    * [0.2: Resources](0-TipsEtc/0.2-Resources.md)
 * ElevenNote API (Parts 13-19)
     * Part 13: API Intro
         * [13.0: API Intro](13-APIIntro/13.0-APIIntro.md)
