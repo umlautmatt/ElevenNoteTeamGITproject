@@ -16,11 +16,11 @@
     * Part 3: Database Setup
         * [3.1: Data](3-DatabaseSetup/3.0-Data.md)
         * [3.2: Annotations](3-DatabaseSetup/3.1-Annotations.md)
-        * [3.3: Migrations](3-DatabaseSetup/3.2-Migrations.md)
-        * [3.4: GUID Info](3-DatabaseSetup/3.3-GUIDInfo.md)            
-        * [3.5: Types](3-DatabaseSetup/3.4-Types.md)
-        * [3.6: Password Information](2-IdentityModel/3.5-PasswordInformation.md)
-        * [3.7: Database and Connection String](3-DatabaseSetup/3.6-DatabaseAndConnectionString.md)
+        * [3.3: Database and Connection String](3-DatabaseSetup/3.6-DatabaseAndConnectionString.md)
+        * [3.4: Migrations](3-DatabaseSetup/3.2-Migrations.md)
+        * [3.5: GUID Info](3-DatabaseSetup/3.3-GUIDInfo.md)            
+        * [3.6: Types](3-DatabaseSetup/3.4-Types.md)
+        * [3.7: Password Information](2-IdentityModel/3.5-PasswordInformation.md)
     * Part 4: NoteListItem
         * [4.0: Note Controller](4-NoteListItem/4.0-NoteController.md)
         * [4.1: NoteListItem Model](4-NoteListItem/4.1-NoteListItemModel.md)
