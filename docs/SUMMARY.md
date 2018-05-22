@@ -12,11 +12,9 @@
     * Part 2: Identity Model
         * [2.0: Identity Model](2-IdentityModel/2.0-IdentityModel.md)
         * [2.1: Entity Framework, References, Using Statements](2-IdentityModel/2.1-EntityRefrencesAndUsingStatements.md)
-        * [2.1: Password Information](2-IdentityModel/1.9-PasswordInformation.md)
         * [2.2: Identity Models Setup](2-IdentityModel/2.2-IdentityModelsSetup.md)
-            * [2.2a: IdentityModels.cs](2-IdentityModel/2.2a-IdentityModelsScreenshot.md)
-            * [2.2b: Explanation](2-IdentityModel/2.2b-Explanation.md)
     * Part 3: Database Setup
+        * [2.1: Password Information](2-IdentityModel/1.9-PasswordInformation.md)
         * [3.0: Data](3-DatabaseSetup/3.0-Data.md)
             * [3.0a: Annotations](3-DatabaseSetup/3.0a-Annotations.md)
             * [3.0b: Migrations](3-DatabaseSetup/3.0b-Migrations.md)
