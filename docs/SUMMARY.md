@@ -22,9 +22,10 @@
         * [3.6: Types](3-DatabaseSetup/3.4-Types.md)
         * [3.7: Password Information](2-IdentityModel/3.5-PasswordInformation.md)
     * Part 4: NoteListItem
-        * [4.0: Note Controller](4-NoteListItem/4.0-NoteController.md)
-        * [4.1: NoteListItem Model](4-NoteListItem/4.1-NoteListItemModel.md)
-        * [4.2: Index View](4-NoteListItem/4.2-IndexView.md)
+        * [4.0: MVC Intro](4-NoteListItem/4.0-mvc-intro.md)
+        * [4.1: Note Controller](4-NoteListItem/4.0-NoteController.md)
+        * [4.2: NoteListItem Model](4-NoteListItem/4.1-NoteListItemModel.md)
+        * [4.3: Index View](4-NoteListItem/4.2-IndexView.md)
     * Part 5: NoteCreate
         * [5.0: NoteCreate](5-NoteCreate/5.0-CreateMethod.md)
         * [5.1: NoteCreate Model](5-NoteCreate/5.1-NoteCreateModel.md)
