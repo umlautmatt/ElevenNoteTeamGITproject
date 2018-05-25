@@ -20,7 +20,7 @@
         * [3.4: Guid Info](3-DatabaseSetup/3.3-GUIDInfo.md)            
         * [3.5: Migrations](3-DatabaseSetup/3.2-Migrations.md)
         * [3.6: Types](3-DatabaseSetup/3.4-Types.md)
-        * [3.7: Password Information](2-IdentityModel/3.5-PasswordInformation.md)
+        * [3.7: Password Information](3-DatabaseSetup/3.5-PasswordInformation.md)
     * Part 4: NoteListItem
         * [4.0: MVC Intro](4-NoteListItem/4.0-mvc-intro.md)
         * [4.1: Note Controller](4-NoteListItem/4.0-NoteController.md)
