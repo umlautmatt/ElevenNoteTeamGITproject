@@ -20,7 +20,7 @@ namespace ElevenNote.Web.Controllers
 
             return View(model);
         }
-
+        //GET
         public ActionResult Create()
         {
             return View();
