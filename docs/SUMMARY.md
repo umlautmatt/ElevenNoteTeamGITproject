@@ -7,7 +7,7 @@
         * [1.1: ElevenNote.Data](1-Setup/1.1-DataLayer.md)
         * [1.2: ElevenNote.Models](1-Setup/1.2-Models.md)
         * [1.3: ElevenNote.Contracts](1-Setup/1.3-Contracts.md)
-        * [1.4: ElevenNote.Service](1-Setup/1.4-Service.md)
+        * [1.4: ElevenNote.Services](1-Setup/1.4-Service.md)
         * [1.5: ElevenNote.Tests](1-Setup/1.5-Tests.md)
     * Part 2: Identity Model
         * [2.0: Identity Model](2-IdentityModel/2.0-IdentityModel.md)
