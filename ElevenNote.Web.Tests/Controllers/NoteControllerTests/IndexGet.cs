@@ -8,16 +8,19 @@ namespace ElevenNote.Web.Tests.Controllers.NoteControllerTests
     [TestClass]
     public class IndexGet : NoteControllerTestsBase
     {
-        private readonly List<NoteListItem> _expectedNotes = new List<NoteListItem>();
-            
+        private List<NoteListItem> _expectedNotes;
+
         [TestInitialize]
         public override void Arrange()
         {
             base.Arrange();
-            
+
+            _expectedNotes = new List<NoteListItem>
+            {
+                new NoteListItem { NoteId = 1 },
+                new NoteListItem { NoteId = 2 }
+            };
             NoteService.GetNotesResult = _expectedNotes;
-            _expectedNotes.Add(new NoteListItem { NoteId = 1 });
-            _expectedNotes.Add(new NoteListItem { NoteId = 2 });
         }
 
         private ActionResult Act()
@@ -36,7 +39,7 @@ namespace ElevenNote.Web.Tests.Controllers.NoteControllerTests
         [TestMethod]
         public void ReturnsExpectedModel()
         {
-            var result = (ViewResult) Act();
+            var result = (ViewResult)Act();
 
             Assert.IsInstanceOfType(result.Model, typeof(List<NoteListItem>));
             Assert.AreEqual(_expectedNotes, result.Model);

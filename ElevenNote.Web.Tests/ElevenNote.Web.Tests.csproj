@@ -49,6 +49,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
     </Reference>
@@ -70,6 +71,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\NoteControllerTests\CreateGet.cs" />
+    <Compile Include="Controllers\NoteControllerTests\CreatePost.cs" />
+    <Compile Include="Controllers\NoteControllerTests\DeleteGet.cs" />
+    <Compile Include="Controllers\NoteControllerTests\DeletePost.cs" />
+    <Compile Include="Controllers\NoteControllerTests\DetailsGet.cs" />
+    <Compile Include="Controllers\NoteControllerTests\EditGet.cs" />
+    <Compile Include="Controllers\NoteControllerTests\EditPost.cs" />
     <Compile Include="Controllers\NoteControllerTests\FakeNoteService.cs" />
     <Compile Include="Controllers\NoteControllerTests\IndexGet.cs" />
     <Compile Include="Controllers\NoteControllerTests\NoteControllerTestsBase.cs" />
