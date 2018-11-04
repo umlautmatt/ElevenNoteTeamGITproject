@@ -2,9 +2,6 @@
 using ElevenNote.Services;
 using Microsoft.AspNet.Identity;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace ElevenNote.Web.Controllers
@@ -12,14 +9,32 @@ namespace ElevenNote.Web.Controllers
     [Authorize]
     public class NoteController : Controller
     {
+        // not every action needs a note service, so Lazy allows us to defer instantiation until we actually need one.
+        private readonly Lazy<INoteService> _noteService;
+
+        /// <summary>
+        /// Production constructor. Creates a real NoteService.
+        /// </summary>
+        public NoteController()
+        {
+            _noteService = new Lazy<INoteService>(CreateNoteService);
+        }
+
+        /// <summary>
+        /// Testing constructor. Lets us inject a mocked INoteService.
+        /// </summary>
+        public NoteController(Lazy<INoteService> noteService)
+        {
+            _noteService = noteService;
+        }
+
         public ActionResult Index()
         {
-            var service = CreateNoteService();
-            var model = service.GetNotes();
-          
+            var model = _noteService.Value.GetNotes();
 
             return View(model);
         }
+
         //GET
         public ActionResult Create()
         {
@@ -32,9 +47,7 @@ namespace ElevenNote.Web.Controllers
         {
             if (!ModelState.IsValid) return View(model);
 
-            var service = CreateNoteService();
-
-            if (service.CreateNote(model))
+            if (_noteService.Value.CreateNote(model))
             {
                 TempData["SaveResult"] = "Your note was created";
                 return RedirectToAction("Index");
@@ -46,16 +59,14 @@ namespace ElevenNote.Web.Controllers
 
         public ActionResult Details(int id)
         {
-            var svc = CreateNoteService();
-            var model = svc.GetNoteById(id);
+            var model = _noteService.Value.GetNoteById(id);
 
             return View(model);
         }
 
         public ActionResult Edit(int id)
         {
-            var service = CreateNoteService();
-            var detail = service.GetNoteById(id);
+            var detail = _noteService.Value.GetNoteById(id);
             var model =
                 new NoteEdit
                 {
@@ -79,9 +90,7 @@ namespace ElevenNote.Web.Controllers
                 return View(model);
             }
 
-            var service = CreateNoteService();
-
-            if (service.UpdateNote(model))
+            if (_noteService.Value.UpdateNote(model))
             {
                 TempData["SaveResult"] = "Your note was updated";
                 return RedirectToAction("Index");
@@ -93,8 +102,7 @@ namespace ElevenNote.Web.Controllers
 
         public ActionResult Delete(int id)
         {
-            var svc = CreateNoteService();
-            var model = svc.GetNoteById(id);
+            var model = _noteService.Value.GetNoteById(id);
 
             return View(model);
         }
@@ -104,17 +112,15 @@ namespace ElevenNote.Web.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeletePost(int id)
         {
-            var service = CreateNoteService();
-
             // TODO: Handle failure
-            service.DeleteNote(id);
+            _noteService.Value.DeleteNote(id);
 
             TempData["SaveResult"] = "Your note was deleted!";
 
             return RedirectToAction("Index");
         }
 
-        private NoteService CreateNoteService()
+        private INoteService CreateNoteService()
         {
             var userId = Guid.Parse(User.Identity.GetUserId());
             var service = new NoteService(userId);

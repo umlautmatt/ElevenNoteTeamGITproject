@@ -1,29 +1,43 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
-using System.Web.Http;
-using ElevenNote.Models;
+﻿using ElevenNote.Models;
 using ElevenNote.Services;
 using Microsoft.AspNet.Identity;
+using System;
+using System.Web.Http;
 
 namespace ElevenNote.WebAPI.Controllers
 {
     [Authorize]
     public class NoteController : ApiController
     {
+        // not every action path needs a note service, so Lazy allows us to defer instantiation until we actually need one.
+        private readonly Lazy<INoteService> _noteService;
+
+        /// <summary>
+        /// Production constructor. Creates a real NoteService.
+        /// </summary>
+        public NoteController()
+        {
+            _noteService = new Lazy<INoteService>(() =>
+                new NoteService(Guid.Parse(User.Identity.GetUserId())));
+        }
+
+        /// <summary>
+        /// Testing constructor. Lets us inject a mocked INoteService.
+        /// </summary>
+        public NoteController(Lazy<INoteService> noteService)
+        {
+            _noteService = noteService;
+        }
+
         public IHttpActionResult GetAll()
         {
-            NoteService noteService = CreateNoteService();
-            var notes = noteService.GetNotes();
+            var notes = _noteService.Value.GetNotes();
             return Ok(notes);
         }
 
         public IHttpActionResult Get(int id)
         {
-            NoteService noteService = CreateNoteService();
-            var note = noteService.GetNoteById(id);
+            var note = _noteService.Value.GetNoteById(id);
             return Ok(note);
         }
 
@@ -32,9 +46,7 @@ namespace ElevenNote.WebAPI.Controllers
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-            var service = CreateNoteService();
-
-            if (!service.CreateNote(note))
+            if (!_noteService.Value.CreateNote(note))
                 return InternalServerError();
 
             return Ok();
@@ -45,9 +57,7 @@ namespace ElevenNote.WebAPI.Controllers
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-            var service = CreateNoteService();
-
-            if (!service.UpdateNote(note))
+            if (!_noteService.Value.UpdateNote(note))
                 return InternalServerError();
 
             return Ok();
@@ -55,19 +65,10 @@ namespace ElevenNote.WebAPI.Controllers
 
         public IHttpActionResult Delete(int id)
         {
-            var service = CreateNoteService();
-
-            if (!service.DeleteNote(id))
+            if (!_noteService.Value.DeleteNote(id))
                 return InternalServerError();
 
             return Ok();
-        }
-
-        private NoteService CreateNoteService()
-        {
-            var userId = Guid.Parse(User.Identity.GetUserId());
-            var noteService = new NoteService(userId);
-            return noteService;
         }
     }
 }
